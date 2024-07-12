@@ -1,6 +1,8 @@
 # Custom
 models/
-data/
+data/*
+!data/asqa
+!data/prompts
 !src/data
 aws/
 bin/installation/aws/
@@ -14,6 +16,7 @@ bin/aws/
 bin/awscliv2.zip
 lightning_logs/
 offload/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
