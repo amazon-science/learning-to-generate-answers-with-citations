@@ -52,7 +52,7 @@ All configuration settings for each argument can be found in the folder `configs
 
 The script trains the LLM iteratively on a fully and weakly supervsed data and evaluates its performance after the training process is completed. 
 
-If you want to call the evaluation script independently call `val.sh` with the same arguments as above. If you have trained a CaLF model which you wish to evaluate, you can call `val_from_saved.sh` which loads the trained weights before evaluation. Finally, `val_from_saved_transfer.sh` can be used to evaluate a model on a new dataset in a domain-transfer scenario (i.e. results in Table 2). In addition to the afforementioned arguments, the transfer evaluation script takes two additional arguments: the target dataset name and the target dataset retrieval system (13 arguments in total).
+If you want to call the evaluation script independently, call `val.sh` with the same arguments as above. If you have trained a CaLF model which you wish to evaluate, you can call `val_from_saved.sh`, which loads the trained weights before evaluation. Finally, `val_from_saved_transfer.sh` can be used to evaluate a model on a new dataset in a domain-transfer scenario (i.e. results in Table 2). In addition to the afforementioned arguments, the transfer evaluation script takes two additional arguments: the target dataset name and the target dataset retrieval system (13 arguments in total).
 
 ## Security
 
