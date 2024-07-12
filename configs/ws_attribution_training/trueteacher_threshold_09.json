@@ -1,0 +1,6 @@
+{
+    "consistency_model": "google/t5_11b_trueteacher_and_anli",
+    "ws_attribution_training": true,
+    "ws_filtering_threshold": 0.9,
+    "ws_filtering_threshold_correctness": 0.45
+}

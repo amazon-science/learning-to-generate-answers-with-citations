@@ -1,0 +1,4 @@
+{
+    "reader_model_origin": "mistralai/Mistral-7B-Instruct-v0.1",
+    "model_type": "decoder_only"
+}

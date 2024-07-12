@@ -1,0 +1,3 @@
+exp_name=$2/answer_truncation_$1__environment_$3__focused_learning_$4__model_$5__retriever_$6__samples_$7__ws_$8/${9}/iter_${11}
+
+CUDA_VISIBLE_DEVICES=${10} python3 -m src.run -c configs/answer_truncation/$1.json+configs/dataset/$2.json+configs/environment/$3.json+configs/focused_learning/$4.json+configs/model/$5.json+configs/retrieval/$6.json+configs/samples/$7.json+configs/ws_attribution_training/$8.json -k exp_name=${exp_name} seed=${9} load_weight=exp_out/${exp_name}/finish.pt ws_iteration=${11}

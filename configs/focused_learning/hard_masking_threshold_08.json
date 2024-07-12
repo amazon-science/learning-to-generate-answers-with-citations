@@ -1,0 +1,7 @@
+{
+    "focused_learning": true,
+    "focused_learning_mode": "hard_masking",
+    "importance_attribution_weights": 1,
+    "importance_threshold": 0.8,
+    "mask_all_but_citations": true
+}

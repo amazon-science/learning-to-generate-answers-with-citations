@@ -1,0 +1,4 @@
+{
+    "reader_model_origin": "meta-llama/Llama-2-7b-chat-hf",
+    "model_type": "decoder_only"
+}

@@ -1,0 +1,5 @@
+{
+    "retriever": "gtr",
+    "use_file_passages": true,
+    "retriever_n_context": 5
+}
