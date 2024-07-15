@@ -17,7 +17,7 @@ nltk
 shap
 ipython
 protobuf
-transformers==4.35.2
+transformers==4.38.0
 gitpython
 isort
 black
