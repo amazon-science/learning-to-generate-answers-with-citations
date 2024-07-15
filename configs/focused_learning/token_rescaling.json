@@ -1,0 +1,6 @@
+{
+    "focused_learning": true,
+    "focused_learning_mode": "soft_masking_token_rescaling",
+    "importance_attribution_weights": 1,
+    "mask_all_but_citations": true
+}

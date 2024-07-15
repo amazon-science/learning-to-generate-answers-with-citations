@@ -1,0 +1,11 @@
+{
+    "batch_size": 1,
+    "eval_batch_size": 1,
+    "n_context": 3,
+    "retriever_n_context": 3,
+    "lr": 3e-4,
+    "num_steps": 100,
+    "trainable_param_names": ".*layer_norm.*|.*lora_[ab].*|.*lora_[AB].*||.*lora_embedding_[AB].*",
+    "bootstrapping": true,
+    "use_chat_template": true
+}

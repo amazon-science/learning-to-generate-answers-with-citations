@@ -1,0 +1,6 @@
+{
+    "consistency_model": "google/t5_xxl_true_nli_mixture",
+    "ws_attribution_training": true,
+    "ws_filtering_threshold": 0.9,
+    "ws_filtering_threshold_correctness": 0.45
+}

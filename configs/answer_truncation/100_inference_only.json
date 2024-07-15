@@ -1,0 +1,4 @@
+{
+    "generation_max_length": 100,
+    "answer_truncation": "inference"
+}

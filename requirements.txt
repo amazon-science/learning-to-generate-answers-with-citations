@@ -1,0 +1,24 @@
+nltk
+rouge-score
+sacrebleu
+spacy
+bert-score
+mauve-text
+accelerate
+sentencepiece
+bitsandbytes
+peft
+deepspeed
+pytorch_lightning
+sentence_transformers
+spacy
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
+nltk
+shap
+ipython
+protobuf
+transformers==4.35.2
+gitpython
+isort
+black
+

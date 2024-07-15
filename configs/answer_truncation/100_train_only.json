@@ -1,0 +1,5 @@
+{
+    "train_max_length": 100,
+    "generation_max_length": 256,
+    "answer_truncation": "train"
+}
